@@ -1,0 +1,16 @@
+.toggleButton {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+
+.toggleButton:hover {
+  color: var(--color-black);
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 0.5rem;
+}

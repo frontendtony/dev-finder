@@ -1,0 +1,29 @@
+:root {
+  --color-primary: hsl(212, 100%, 50%);
+  --color-light-text: hsl(217, 20%, 51%);
+  --color-body: hsl(217, 35%, 45%);
+  --color-black: hsl(217, 21%, 21%);
+  --color-light-bg: hsl(227, 100%, 98%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-error: hsl(0, 91%, 62%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: hsl(212, 100%, 50%);
+    --color-light-text: hsl(0, 0%, 100%);
+    --color-body: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 100%);
+    --color-light-bg: hsl(220, 40%, 13%);
+    --color-white: hsl(222, 41%, 20%);
+  }
+}
+
+.dark {
+  --color-primary: hsl(212, 100%, 50%);
+  --color-light-text: hsl(0, 0%, 100%);
+  --color-body: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 100%);
+  --color-light-bg: hsl(220, 40%, 13%);
+  --color-white: hsl(222, 41%, 20%);
+}
